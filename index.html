@@ -1,0 +1,73 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix — Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <img src="images/logo.png" class="logo" alt="Netflix Logo">
+            <div>
+                <button class="language-btn">English <img src="images/down-icon.png" alt=""></button>
+                <button>Sign In</button>
+            </div>
+        </nav>
+
+
+        <div class="header-content">
+            <h1>Unlimited movies, TV shows and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <form class="input-btn" onsubmit="return validateEmail()">
+                <input id="email" type="email" placeholder="Email address" required>
+                <button type="submit">Get Started ></button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Feature 1 -->
+    <section class="feature">
+        <div class="feature-text">
+            <h2>Enjoy on your TV.</h2>
+            <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+        </div>
+        <img src="images/feature-2.png" alt="Watch on TV">
+    </section>
+
+
+    <!-- Feature 2 -->
+    <section class="feature">
+        <img src="images/feature-3.png" alt="Download shows">
+        <div class="feature-text">
+            <h2>Download your shows to watch offline.</h2>
+            <p>Save your favourites easily and always have something to watch.</p>
+        </div>
+    </section>
+
+
+    <!-- Feature 3 -->
+    <section class="feature">
+        <div class="feature-text">
+            <h2>Create profiles for children.</h2>
+            <p>Send children on adventures with their favourite characters in a space made just for them — free with
+                your membership.</p>
+        </div>
+        <img src="images/feature-4.png" alt="Children Profile">
+    </section>
+
+
+    <footer>
+        <p>Questions? Call 000-800-919-1694</p>
+        <p>Netflix Clone by Faiz Khan | For learning purposes only.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
